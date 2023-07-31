@@ -1,0 +1,509 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    background: #212529;
+    padding: 20px 5%;
+    transition: 0.5s;
+
+
+}
+
+ul li a {
+    padding: 0 20px;
+    color: #08e438;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul li a:hover{
+    color: #a29c9c
+}
+.container h2 {
+    font-size: 35px;
+    color: rgb(21, 200, 21);
+
+}
+
+span {
+    color: rgb(242, 232, 235);
+}
+
+.home {
+    background-image: url('http://www.thegym.in/img/slider1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    /* border: 2px solid black; */
+}
+
+.home-smg h3 {
+    font-size: 32px;
+    color: #fd3c3d;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.home-smg p {
+    font-size: 20px;
+    color: #212529;
+    margin-bottom: 5px;
+    margin-right: 1;
+}
+
+
+/* --------start-about-section -------- */
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    /* border: 2px solid black; */
+
+}
+
+.about-smg {
+    padding: 20px 60px;
+    /* box-shadow: 0 2px 6px; */
+}
+
+.about-smg h3 {
+    font-size: 35px;
+    color: #fd3c3d;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.about-smg p {
+    color: rgb(100, 95, 95);
+}
+
+
+/* --------end-about-section -------- */
+
+.home-p {
+    text-align: center;
+}
+
+
+/*------- training-section------*/
+
+.training-heading {
+    text-align: center;
+    padding: 30px;
+}
+
+.training-heading h3 {
+    font-size: 35px;
+    color: #fd3c3d;
+    
+}
+
+.training-heading h4{
+    padding-bottom: 20px;
+} 
+
+
+.training-heading p {
+    
+    margin-bottom: 20px;
+}
+
+
+.training-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 20px;
+    /* width: 15%; */
+}
+
+.training-box {
+    /* border: 2px solid black; */
+    background-color: #ece2e5;
+    height: 410px;
+    width: 350px;
+    padding: 10px;
+    box-shadow: 0 1px 4px;
+    border-radius: 4px;
+
+}
+
+.training-box img {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+
+.training-box h4{
+    padding-bottom: 5px;
+}
+
+
+.training-box p {
+    padding-bottom: 15px;
+}
+
+.training-box a {
+    margin: 40px 0px;
+}
+
+/* --------------- feature-section --------------- */
+
+.feater-heading h3 {
+    font-size: 35px;
+    color: #fd3c3d;
+    margin: 40px 0px;
+    text-align: center;
+
+}
+
+
+.feature-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+
+}
+
+.feature-box h3 {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.feature-box img {
+    width: 100%;
+    height: 340px;
+    /* border-radius: 10px; */
+}
+
+
+/* ------------ class-section ----------------- */
+
+.class-heading h3 {
+    font-size: 35px;
+    color: #fd3c3d;
+    /* margin: 40px 0px; */
+    margin-top: 40px;
+    text-align: center;
+}
+
+.class-heading h4 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.class-conatainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    padding: 15px;
+    background-color: rgb(255, 246, 246);
+    /* background-color:rgb(233, 228, 218); */
+
+    /* border: 2px solid black; */
+}
+
+
+.class-box {
+    /* border: 2px solid black; */
+    /* box-shadow: 0 1px 4px; */
+    /* padding: 20px; */
+}
+
+.class-box h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+.class-box img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.class-box p {
+    text-align: start;
+}
+
+
+
+
+
+/* ---------- hot-deals-section------------------ */
+.hot-deals-smg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    font-size: 32px;
+    color: #fd3c3d;
+}
+
+.hot-deals-imgage {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    height: 430px;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 20px;
+
+}
+
+.hot-deals-imgage img {
+    width: 100%;
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 5px;
+}
+
+.hot-deals-imgage img:hover {
+    transform: translateY(-10px);
+}
+
+
+/* ---------- footer-1 ----------- */
+.footer-1 {
+    background-color: #fd3c3d;
+    height: 420px;
+}
+
+.footer-1-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* line-height: 50px; */
+    padding-top: 170px;
+}
+
+.footer-1-icon i {
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+
+.footer-1-icon h5 {
+    color: #fff;
+    font-size: 45px;
+    padding-bottom: 5px;
+}
+
+.footer-1-icon p {
+    color: #fff;
+}
+
+
+/*------- contact-section ----------*/
+.contact-section {
+    /* background-color: rgb(255, 246, 246); */
+    height: 630px;
+    padding: 40px 0px;
+    background-color: #262626;
+    color: #fff;
+}
+
+.contact {
+    text-align: center;
+    font-size: 30px;
+    color: #fd3c3d;
+    /* padding: 40px 0px; */
+    padding-bottom: 30px;
+    /* text-decoration: underline; */
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.contact-left {
+    
+    /* border: 2px solid black; */
+    flex-basis: 50%;
+    height: 550px;
+    /* padding: 20px; */
+}
+
+.contact-left h2{
+    text-align: center;
+    /* margin-top: 60px; */
+    padding-bottom: 15px;
+    font-size: 40px;
+    color:  #fd3c3d;
+}
+
+.contact-left h4{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contact-left p{
+    text-align: center;
+    /* padding: 4px 0; */
+    /* padding-left: 0px; */
+}
+
+.contact-left i{
+    padding-right: 5px;
+}
+
+
+.contact-right {
+    /* border: 2px solid black; */
+    flex-basis: 50%;
+    height: 500px;
+    padding: 0 40px;
+    /* background-color:aqua; */
+
+}
+
+.contact-right h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    color:  #fd3c3d;
+}
+
+
+form {
+    margin-top: -50px;
+    /* background-color:#262626; */
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    
+}
+
+input {
+    font-size: 15px;
+    /* background-color: #262626; */
+    border-radius: 4px;
+ 
+}
+
+form p {
+    font-size: 22px;
+    padding: 5px;
+    color: #dc3545;
+}
+
+form input{
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+}
+
+textarea {
+    width: 100%;
+    height:80px;
+    border-radius: 4px;
+    /* background-color: #262626; */
+}
+
+.btn {
+   padding: 10px 40px;
+   border: none;
+   outline: none;
+   margin-top: 15px;
+   border-radius: 4px;
+   background-color: #fd3c3d;
+   color: #fff;
+   font-size: 16px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+
+/* ---------- footer-2-section ----------- */
+
+.footer-2-container {
+    background-color: black;
+    height: 620px;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer-2-heading h3 {
+    font-size: 35px;
+    color: #fd3c3d;
+    text-align: center;
+    /* padding-bottom: 20px; */
+}
+
+.footer-2-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 200px;
+}
+
+.footer-2-sms h4 {
+    font-size: 24px;
+    color: #7D7E85;
+    padding-bottom: 15px;
+}
+
+.footer-2-sms {
+    font-size: 13px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.footer-2-sms p{
+    color: #f1e9e9;
+}
+
+.footer-2-icon {
+    padding: 30px 38%;
+    cursor: pointer;
+}
+
+.footer-2-icon i {
+    font-size: 45px;
+    padding: 0 20px;
+    color: #dc3545 !important;
+}
+
+.footer-2-copyright p {
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 40px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.footer-2-copyright i{
+    color: red;
+}
