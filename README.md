@@ -9,4 +9,5 @@ I developed this GYM website using HTML and CSS
 ![g7](https://github.com/nasim8423/GYM-Website-Project/assets/124512199/19995407-87f2-4098-a819-21a2909c1f85)
 ![g8](https://github.com/nasim8423/GYM-Website-Project/assets/124512199/e0b6fa90-f7c1-417a-ab01-003ee800663a)
 ![g9](https://github.com/nasim8423/GYM-Website-Project/assets/124512199/c9a91d73-3036-48a0-811d-1486af929b36)
-![Uploading 10.jpg…]()
+
+![10](https://github.com/nasim8423/GYM-Website-Project/assets/124512199/38ee1a41-dda6-4a6d-a2df-48830282d7b0)
